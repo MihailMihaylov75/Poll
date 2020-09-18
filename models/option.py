@@ -6,7 +6,7 @@ from connections import get_connection
 
 class Option:
     """Option class"""
-    def __init__(self, option_text, poll_id, _id):
+    def __init__(self, option_text, poll_id, _id=None):
         """
         Initialize Option class
         :param option_text: Option string

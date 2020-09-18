@@ -106,8 +106,7 @@ def menu():
             MENU_OPTIONS[selection]()
         except KeyError:
             print("Invalid input selected. Please try again.")
-        else:
-            selection = input(MENU_PROMPT)
+        selection = input(MENU_PROMPT)
 
 
 menu()

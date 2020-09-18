@@ -21,7 +21,7 @@ SELECT_VOTES_FOR_OPTION = "SELECT * FROM votes WHERE option_id = %s;"
 # Inserts
 INSERT_POLL_RETURN_ID = "INSERT INTO polls (title, owner_username) VALUES (%s, %s) RETURNING id;"
 INSERT_OPTION = "INSERT INTO options (option_text, poll_id) VALUES (%s, %s) RETURNING id;"
-INSERT_VOTE = "INSERT INTO votes (username, option_id, vote_timestamp) VALUES (%s, %s, %s);"
+INSERT_VOTE = "INSERT INTO votes (username, option_id) VALUES (%s, %s);"
 
 
 @contextmanager

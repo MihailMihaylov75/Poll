@@ -7,7 +7,7 @@ from connections import get_connection
 
 class Poll:
     """Poll class"""
-    def __init__(self, title, owner, _id):
+    def __init__(self, title, owner, _id=None):
         """
         Initialize
         :param title: Title of the poll
